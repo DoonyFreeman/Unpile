@@ -10,8 +10,6 @@ Keep what you need. Mark the rest for Trash, review the candidate list, and conf
 
 **[Download beta for macOS](https://github.com/DoonyFreeman/Unpile/releases/download/v0.7.0-beta.1/Unpile-0.7.0-universal.dmg)** · Universal arm64/x86_64 · about 3 MB
 
-The first GitHub release is pending approval; this download link becomes available when `v0.7.0-beta.1` is published. The MIT license is prepared for publication review.
-
 ## Current features
 
 - Choose one local folder with the system picker; access survives restarts.
@@ -53,7 +51,7 @@ Open `build/Unpile-0.7.0.app` and choose a folder or try the synthetic demo. The
 bash scripts/package-dmg.sh --universal
 ```
 
-The Universal image is written to `build/releases/Unpile-0.7.0-universal.dmg`, with a SHA-256 file and source manifest. Python 3.10+ is required for packaging; two hash-pinned build tools are installed in an isolated environment and never included in the app. This is a local beta asset, not a published download link.
+The Universal image is written to `build/releases/Unpile-0.7.0-universal.dmg`, with a SHA-256 file and source manifest. Python 3.10+ is required for packaging; two hash-pinned build tools are installed in an isolated environment and never included in the app. The published beta is available from the Download link above.
 
 [Installation guidance](docs/INSTALL.txt) · [Release candidate review](docs/RELEASE_CANDIDATE.md) · [Publication package](docs/PUBLICATION_PREVIEW.md)
 
@@ -74,13 +72,15 @@ Keep the pointer over the visible card for trackpad gestures. Vertical scrolling
 
 ## Beta limits and verification
 
-27 checks cover session behavior, file policy, stale versions and links, journal failures, interrupted transfers, saved state, localization, a synthetic 1000-file inventory, and swipe sequences. Native UI QA uses a separate app identity and synthetic fixtures. The user confirmed both two-finger swipe directions on a physical trackpad in the final 0.6.0 demo; gesture code is unchanged in 0.7.0. The extended gesture walkthrough, full spoken VoiceOver walkthrough, older macOS, Intel, and a wider media-codec matrix remain release checks.
+27 checks cover session behavior, file policy, stale versions and links, journal failures, interrupted transfers, saved state, localization, a synthetic 1000-file inventory, and swipe sequences. Native UI QA uses a separate app identity and synthetic fixtures. The user confirmed both two-finger swipe directions on a physical trackpad in the final 0.6.0 demo; gesture code is unchanged in 0.7.0. The extended gesture walkthrough, full spoken VoiceOver walkthrough, older macOS, physical Intel GUI, and a wider media-codec matrix remain release checks.
+
+[GitHub Actions](https://github.com/DoonyFreeman/Unpile/actions/runs/38090790265) passed checks, app builds, and signature/resource verification on `macos-26` and `macos-26-intel`. These automated jobs do not establish GUI compatibility on those devices.
 
 Restore files through Finder’s Trash. Metadata checks and file coordination do not eliminate every race with other processes. Version 0.7.0 uses the permanent app identity. Earlier local betas use separate containers; their sessions are not automatically imported. Keeping the identity stable does not yet establish ad hoc update compatibility.
 
 ## Contributing and license
 
-See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), and [CHANGELOG.md](CHANGELOG.md). The [MIT license](LICENSE) and reporting channel must be confirmed in the publication review.
+See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), and [CHANGELOG.md](CHANGELOG.md). Licensed under [MIT](LICENSE). Use [private vulnerability reporting](https://github.com/DoonyFreeman/Unpile/security/advisories/new) for security or file-safety reports.
 
 ## Project documents
 
@@ -92,4 +92,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [CODE_OF_CON
 - [Localization, accessibility, and preview](docs/LOCALIZATION_AND_ACCESSIBILITY.md)
 - [Release and community plan](docs/RELEASE_AND_GROWTH.md)
 
-These plans include future v1 work. GitHub publication will follow review of a specific revision and destination.
+These plans include future v1 work. Releases are reviewed against a specific source revision and artifact before publication.

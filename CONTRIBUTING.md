@@ -1,6 +1,6 @@
 # Contributing to Unpile
 
-This is a local beta. The public repository and reporting channels will be confirmed before publication.
+Unpile is an open-source beta in [DoonyFreeman/Unpile](https://github.com/DoonyFreeman/Unpile). Use Issues for ordinary bugs and feature requests; use the private route in [SECURITY.md](SECURITY.md) for security or file-safety reports.
 
 ## Build and check
 

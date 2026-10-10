@@ -31,4 +31,4 @@ If Unpile helps you, a GitHub star helps others find it. Feedback about installa
 
 ---
 
-Publication draft: use this body only after the reviewed artifact is approved and uploaded. At preparation time, there is no public release or configured reporting channel.
+Maintainer note: the body above was published for `v0.7.0-beta.1` after approval of the source revision and artifacts. This footer is omitted from the GitHub release body.

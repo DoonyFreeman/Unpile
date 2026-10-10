@@ -1,6 +1,6 @@
-# Локальный кандидат 0.7.0
+# Проверенный кандидат 0.7.0 · опубликованная beta
 
-Статус: подготовка beta, публикации нет. Имя Unpile используется как рабочее. Назначение пакета — `DoonyFreeman/Unpile`; удалённый репозиторий пока не создан. Точная исходная ревизия после локального commit записывается в manifest.
+Статус: [beta `v0.7.0-beta.1` опубликована](https://github.com/DoonyFreeman/Unpile/releases/tag/v0.7.0-beta.1) 11 октября 2026 после одобрения пакета в публичном `DoonyFreeman/Unpile` под MIT. Private vulnerability reporting включён. Точная исходная ревизия `af4709c08c17b8a01739eb65d39847008c142cd8` записана в manifest и соответствует tag.
 
 ## Конкретный пакет
 
@@ -10,7 +10,7 @@
 - Постоянный bundle ID: `io.github.doonyfreeman.unpile`; QA — `io.github.doonyfreeman.unpile.qa`. Сессии временных beta не импортируются; совместимость будущих ad hoc обновлений ещё требуется проверить.
 - Бесплатная ad hoc подпись; notarization отсутствует.
 
-Исходный digest пересчитывается после последнего изменения файлов. Manifest содержит только разрешённые папки source/docs/scripts/resources, относительные пути и hashes; состояние пользовательских папок не упаковывается.
+Manifest опубликованного пакета фиксирует исходный digest одобренного tag; последующие изменения документации в `main` его не меняют. Manifest содержит только разрешённые папки source/docs/scripts/resources, относительные пути и hashes; состояние пользовательских папок не упаковывается.
 
 ## Проверка
 
@@ -25,13 +25,13 @@
 
 GUI проверен на Apple Silicon/macOS 27. Rosetta checks не подтверждают GUI на физическом Intel Mac или macOS 14. Полный VoiceOver walkthrough, media-codec matrix и добровольный пилот остаются проверками перед стабильной v1.
 
-## Конкретный пакет для одобрения
+## Одобренный и опубликованный пакет
 
-[PUBLICATION_PREVIEW.md](PUBLICATION_PREVIEW.md) фиксирует `DoonyFreeman/Unpile`, public source/main, MIT notice, private vulnerability reporting и prerelease `v0.7.0-beta.1`. [RELEASE_NOTES_0.7.0.md](RELEASE_NOTES_0.7.0.md) — подготовленный release body. Commit и hashes находятся в соседнем manifest. Перед внешними изменениями требуется явное одобрение этого пакета.
+[PUBLICATION_PREVIEW.md](PUBLICATION_PREVIEW.md) сохраняет одобренное назначение `DoonyFreeman/Unpile`, public source/main, MIT notice, private vulnerability reporting и prerelease `v0.7.0-beta.1`. [RELEASE_NOTES_0.7.0.md](RELEASE_NOTES_0.7.0.md) — опубликованный release body без служебного footer. Commit и hashes находятся в соседнем manifest. Все три assets скачаны без авторизации и побайтно совпали с одобренным пакетом; hashes 70 исходных файлов проверены против tag.
 
 Публичная beta раскрывает непроверенные устройства/сценарии; stable v1 не заявляется. Clean browser-download/quarantine, older macOS/physical Intel GUI и расширенные accessibility/gesture checks остаются открытыми.
 
-В этом этапе ничего не отправляется в GitHub, сообщества или личные сообщения. CI-файлы подготовлены; hosted runs не утверждаются пройденными.
+Одобренные source/tag/release опубликованы в GitHub. [Hosted Checks](https://github.com/DoonyFreeman/Unpile/actions/runs/38090790265) прошёл на `macos-26` и `macos-26-intel`: core checks, сборка приложения, подпись/ресурсы и diff check. Объявления в сообщества и личные сообщения не отправлялись.
 
 ## Повторить сборку
 

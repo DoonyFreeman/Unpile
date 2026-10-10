@@ -1,10 +1,11 @@
 # Changelog
 
-## 0.7.0 — local beta candidate, unpublished
+## 0.7.0 — beta.1, 2026-10-11
 
 - Use the permanent `io.github.doonyfreeman.unpile` app identity and a separate QA identity. Earlier local beta sessions are not imported.
 - Record the source commit in the release manifest only when the working tree is clean.
-- Prepare the first GitHub beta review package and short demo script; publication still requires approval.
+- Publish the approved first GitHub prerelease with a Universal DMG, SHA-256, and source manifest. Prepare a short demo script.
+- Pass hosted checks and app verification on macOS 26 Apple Silicon and Intel runners; GUI compatibility remains separately tracked.
 - Gesture and file-handling behavior is unchanged from 0.6.0.
 
 ## 0.6.0 — local beta, unpublished

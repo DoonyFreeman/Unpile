@@ -1,6 +1,6 @@
 # Прогресс разработки
 
-Локальная beta 0.7.0 · пакет первого GitHub prerelease подготовлен, публичных удалённых действий нет.
+[Публичная beta 0.7.0](https://github.com/DoonyFreeman/Unpile/releases/tag/v0.7.0-beta.1) опубликована 11 октября 2026 после одобрения конкретной ревизии и назначения.
 
 ## Завершено локально
 
@@ -56,7 +56,7 @@
 - Верификация signature/sandbox/architectures/icon/resources/data boundaries.
 - SHA-256 и source manifest с относительными путями; source tree digest вместо выдуманной commit revision.
 - README, CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, CHANGELOG, issue/PR templates, MIT license и workflows подготовлены локально.
-- Hosted CI и публикация ещё не выполнялись. Подробности — [RELEASE_CANDIDATE.md](RELEASE_CANDIDATE.md).
+- На этом этапе CI и пакет подготовлены локально. Результаты последующей публикации и hosted checks — ниже и в [RELEASE_CANDIDATE.md](RELEASE_CANDIDATE.md).
 
 ### Этап 4б: тачпад и обновлённый экран
 
@@ -69,11 +69,11 @@
 
 ### Этап 4в: постоянная идентичность и пакет первой beta
 
-- Подключённый GitHub account определён read-only: `DoonyFreeman`. Для пакета выбрано назначение `DoonyFreeman/Unpile`; репозиторий пока не создан.
+- Подключённый GitHub account определён read-only: `DoonyFreeman`. После одобрения создан публичный [DoonyFreeman/Unpile](https://github.com/DoonyFreeman/Unpile) под MIT; private vulnerability reporting включён и проверен через API.
 - Постоянный ID `io.github.doonyfreeman.unpile`, отдельный QA ID `io.github.doonyfreeman.unpile.qa`, версия 0.7.0. Импорт временных beta не выполняется; совместимость будущих ad hoc обновлений ещё требуется проверить.
 - Release manifest записывает commit только при чистом Git tree и включении всех source-файлов в Git.
 - Подготовлены точный пакет действий GitHub, beta notes, сценарий 20-секундного demo и черновик объявления: [PUBLICATION_PREVIEW.md](PUBLICATION_PREVIEW.md).
-- Публикация ждёт явного одобрения конкретной ревизии и назначения. Видео/social preview ещё не записаны; осмотр окна установщика в Finder пользователь отложил.
+- Prerelease `v0.7.0-beta.1` опубликован из одобренной ревизии `af4709c08c17b8a01739eb65d39847008c142cd8`. Видео/social preview ещё не записаны; осмотр окна установщика в Finder пользователь отложил.
 
 ## Проверено
 
@@ -119,12 +119,14 @@
 
 - Beta 0.7: 27 native debug/release checks и 27 Intel checks через Rosetta проходят. Universal DMG checksum valid; ID, подпись, sandbox, resources и executable hashes совпадают внутри образа и после копирования.
 - Beta 0.7: копия из `build/test-install-0.7.0/Unpile.app` запущена с новым ID; путь процесса проверен. Welcome и демо работают; Mark/Keep/Later, список, исключение кандидата, блокировка скрытых команд и Undo осмотрены на синтетических данных. Пользовательские папки не выбирались и файловых переносов не было.
+- [Hosted Checks](https://github.com/DoonyFreeman/Unpile/actions/runs/38090790265): 27 проверок, сборка, подпись/ресурсы и diff check прошли на `macos-26` и `macos-26-intel`. GUI на этих runners не проверялся.
+- Все три release assets скачаны без авторизации и побайтно совпали с одобренным пакетом. SHA-256 DMG и hashes 70 исходных файлов manifest проверены против точного tag. Это не заменяет первый запуск после браузерного скачивания с quarantine.
 
 ## Следующие этапы
 
 1. **Перед публичной v1:** расширенный trackpad walkthrough (короткий жест, инерция, вертикальная прокрутка, оба значения Natural Scrolling, preview/settings), проход с включённой речью VoiceOver, расширенный пилот клавиатуры и media-codecs, проверка больших каталогов на разных устройствах. Базовая проверка accessibility tree не заменяет тест озвучивания.
-2. **Для beta:** раскрыть текущую проверенную матрицу и ограничения, согласовать пакет `DoonyFreeman/Unpile`, MIT notice, source revision/tag и private vulnerability reporting. Для stable дополнительно нужны физический Intel/минимальная macOS и browser-download/quarantine на чистом устройстве.
-3. Публикация только после локального review и явного одобрения конкретной ревизии и назначения.
+2. **Для развития beta:** сохранить и осмотреть demo-видео и screenshot/social preview; собрать добровольную обратную связь об установке и первом разборе. Внешние объявления требуют отдельного разрешения на отправку.
+3. Следующие релизы — после локального review и явного одобрения конкретной ревизии и назначения. Для stable дополнительно нужны физический Intel/минимальная macOS и browser-download/quarantine на чистом устройстве.
 
 ## Текущие ограничения
 

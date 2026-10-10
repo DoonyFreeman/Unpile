@@ -1,10 +1,10 @@
 # Пакет первой публичной beta
 
-Подготовлен локально 11 октября 2026. Удалённых изменений нет. Подключённый GitHub account — `DoonyFreeman`; read-only проверка API не нашла `DoonyFreeman/Unpile`.
+Архив одобренного пакета от 11 октября 2026. [Beta опубликована](https://github.com/DoonyFreeman/Unpile/releases/tag/v0.7.0-beta.1) в `DoonyFreeman/Unpile` из ревизии `af4709c08c17b8a01739eb65d39847008c142cd8`; скачивание всех assets без авторизации и их checksum проверены. Ниже сохранён состав одобренных действий и ещё не опубликованные материалы продвижения.
 
 ## Точное назначение и действия
 
-После одобрения этого пакета:
+Одобренные и выполненные действия:
 
 1. Создать публичный репозиторий **DoonyFreeman/Unpile** с описанием: “Swipe through your Downloads. A free, native macOS app with review before Trash.”
 2. Отправить проверенную исходную ревизию в `main`. Локальная ветка подготовки — `codex/release-beta-0.7`.
@@ -32,13 +32,13 @@
 
 Три опорных тезиса: **Native macOS · Files stay local · Review before Trash**.
 
-Блок Download в English/Русском README подготовлен с точной ссылкой на DMG этого beta tag, заметным beta status и объяснением ожидающей публикации. Адрес артефакта:
+Блок Download в English/Русском README содержит точную ссылку на DMG этого beta tag и заметный beta status. Адрес артефакта:
 
 ```text
 https://github.com/DoonyFreeman/Unpile/releases/download/v0.7.0-beta.1/Unpile-0.7.0-universal.dmg
 ```
 
-Пока asset не опубликован, этот адрес не выдаётся за работающую ссылку скачивания. Stable/latest ссылку для первой prerelease не используем.
+Адрес проверен скачиванием без авторизации после публикации. Stable/latest ссылку для первой prerelease не используем.
 
 ## Сценарий ролика · 20 секунд
 
@@ -71,4 +71,4 @@ I'd appreciate feedback on the first review: what makes you hesitate when decidi
 
 Ещё нужны: расширенный физический gesture walkthrough, spoken VoiceOver, older macOS/physical Intel GUI, clean browser-download/quarantine, media-codec matrix, проверка ad hoc обновления. Осмотр установщика в Finder пользователь отложил. Эти ограничения раскрыты в beta notes; stable v1 не заявляется.
 
-Точное одобрение публикации ещё требуется по пользовательским инструкциям AGENTS.md: “Wait for the user's explicit approval before merging or deploying to any shared, staging, or production environment.”
+Этот пакет одобрен и опубликован. Для следующих релизов сохраняется требование пользовательских инструкций AGENTS.md: “Wait for the user's explicit approval before merging or deploying to any shared, staging, or production environment.”
