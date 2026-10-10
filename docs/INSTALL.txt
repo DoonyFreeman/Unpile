@@ -1,0 +1,23 @@
+UNPILE — LOCAL BETA
+
+1. Drag Unpile.app onto Applications.
+2. Eject this disk image.
+3. Open Unpile from Applications. Choose a folder or try the demo.
+
+This beta uses a free ad hoc signature and has not been notarized.
+If macOS blocks opening it, follow Apple's per-app instructions:
+https://support.apple.com/en-us/102445
+Do not turn off Gatekeeper or remove security settings globally.
+
+Only confirmed candidates are moved to system Trash. Unpile never empties it.
+Restore files using Finder. A file marked for Trash remains in place until confirmation.
+
+Universal build contains Apple Silicon and Intel code. Device support and older
+macOS still require validation; see the release notes for the tested matrix.
+
+РУССКИЙ
+
+Перетащите Unpile.app в Applications, извлеките образ и запустите приложение.
+В настройках можно выбрать Русский или язык системы.
+Если macOS блокирует запуск, используйте инструкцию Apple выше для этого приложения.
+Корзина автоматически не очищается; восстановление файлов выполняется через Finder.

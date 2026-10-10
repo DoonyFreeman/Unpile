@@ -1,0 +1,25 @@
+name: Bug report
+description: Report a reproducible problem using synthetic files.
+body:
+  - type: markdown
+    attributes:
+      value: "For security or file-loss risks, follow SECURITY.md. Do not attach real filenames, folder screenshots, state files, or full logs."
+  - type: input
+    id: environment
+    attributes:
+      label: App version, macOS, and Mac architecture
+      placeholder: "0.7.0, macOS 27, Apple Silicon"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps using synthetic files
+      description: Include expected and actual behavior. Replace personal paths with generic examples.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: File outcome
+      description: Were files unchanged, moved to Trash, or uncertain? Do not include their actual names.

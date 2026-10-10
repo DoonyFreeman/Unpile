@@ -1,0 +1,16 @@
+name: Feature request
+description: Describe a problem and the result that would help.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired behavior
+      description: Explain a concrete workflow. Use synthetic examples.
+    validations:
+      required: true
