@@ -11,7 +11,7 @@
 3. Использовать подготовленную MIT-лицензию с notice `2026 Unpile contributors`. Commit author — публичный GitHub username и GitHub noreply email, без личного адреса.
 4. Включить private vulnerability reporting. Maintainer первого релиза — владелец `DoonyFreeman`.
 5. Создать tag **v0.7.0-beta.1** на проверенной ревизии и GitHub prerelease **Unpile 0.7.0 beta**. Release body — [RELEASE_NOTES_0.7.0.md](RELEASE_NOTES_0.7.0.md), без служебного абзаца “Publication draft”.
-6. Прикрепить DMG, `.sha256` и `.manifest.json`. Проверить скачивание, соответствие checksum, tag/revision и видимость beta.
+6. Прикрепить DMG, `.sha256` и `.manifest.json`. Проверить скачивание, соответствие checksum, tag/revision и видимость beta. После успешной публикации отдельным docs-only commit убрать из English/Русского README абзацы об ожидании публикации и заменить заключительную фразу об одобрении лицензии на “Licensed under MIT.” / “Лицензия MIT.” Ссылки и функциональные описания уже подготовлены; бинарник и tag не меняются.
 
 Это одобрение относится к GitHub source/release. Тексты внешних объявлений ниже остаются черновиками.
 
@@ -32,7 +32,7 @@
 
 Три опорных тезиса: **Native macOS · Files stay local · Review before Trash**.
 
-После фактической публикации блок Download в README должен вести к DMG этого beta tag, с заметным beta status и ссылкой на ограничения. Предполагаемый адрес артефакта:
+Блок Download в English/Русском README подготовлен с точной ссылкой на DMG этого beta tag, заметным beta status и объяснением ожидающей публикации. Адрес артефакта:
 
 ```text
 https://github.com/DoonyFreeman/Unpile/releases/download/v0.7.0-beta.1/Unpile-0.7.0-universal.dmg

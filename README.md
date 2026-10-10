@@ -6,7 +6,11 @@
 
 Keep what you need. Mark the rest for Trash, review the candidate list, and confirm the move. Unpile is a native macOS app built with SwiftUI and AppKit.
 
-**Status: local beta 0.7.0.** No public GitHub release yet. The candidate is prepared for `DoonyFreeman/Unpile`, with app identity `io.github.doonyfreeman.unpile`. An MIT license is prepared for review before publication.
+**Beta 0.7.0.** Free, ad hoc signed, and not notarized. See [installation guidance](docs/INSTALL.txt) and the compatibility limits below.
+
+**[Download beta for macOS](https://github.com/DoonyFreeman/Unpile/releases/download/v0.7.0-beta.1/Unpile-0.7.0-universal.dmg)** · Universal arm64/x86_64 · about 3 MB
+
+The first GitHub release is pending approval; this download link becomes available when `v0.7.0-beta.1` is published. The MIT license is prepared for publication review.
 
 ## Current features
 
