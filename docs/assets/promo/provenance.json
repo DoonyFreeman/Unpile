@@ -1,0 +1,52 @@
+{
+  "appVersion": "0.7.0",
+  "sourceRevision": "af4709c08c17b8a01739eb65d39847008c142cd8",
+  "captureDate": "2026-10-11",
+  "capture": "Native app screenshots through cua_repl. Synthetic demo only. No personal folder access or file operations.",
+  "presentation": "20-second sequence of captured app states, not a continuous screen recording. No simulated trackpad footage.",
+  "processing": "Source colors converted to sRGB and metadata removed. Only macOS capture chrome cropped from main-window captures, resizing, rounded masks, framing and captions. App content is not retouched.",
+  "steps": [
+    {
+      "sourceCapture": "01-card.png",
+      "captureSha256": "cc5ce6140c657b517f28219e901f1eca6edae9459e03dee56d0161628b8a90f1",
+      "title": "One file at a time.",
+      "durationSeconds": 3
+    },
+    {
+      "sourceCapture": "02-mark.png",
+      "captureSha256": "d92e8ceb792ed2ca232be5044644f4efa8e41c84f712f0a020d3d84997bfd70a",
+      "title": "Mark a candidate.",
+      "durationSeconds": 3
+    },
+    {
+      "sourceCapture": "03-keep.png",
+      "captureSha256": "b5728830595d132db7a8dcf18b0302c5eeb3e177c637efbf7f528678ed1e3292",
+      "title": "Keep what matters.",
+      "durationSeconds": 3
+    },
+    {
+      "sourceCapture": "04-later.png",
+      "captureSha256": "290630d35107841754af6bc48154022a650579c1034464ef3d5f631bd2cad8f4",
+      "title": "Not sure? Later.",
+      "durationSeconds": 2
+    },
+    {
+      "sourceCapture": "05-undo.png",
+      "captureSha256": "64bbf6ca2939ae78329cda4cb5582f94c923ac6f8fe99696027b715bf02d20ea",
+      "title": "Changed your mind? Undo.",
+      "durationSeconds": 2
+    },
+    {
+      "sourceCapture": "06-review.png",
+      "captureSha256": "74c5aa9c75b064b9224f27e9b17906f176f12a80ceb3b774f0637720245765c6",
+      "title": "Review before Trash.",
+      "durationSeconds": 4
+    },
+    {
+      "sourceCapture": "07-exclude.png",
+      "captureSha256": "669da1b2e830df56a576fdf549b4e7da176a19696ef98ed58ffd7c3174491e88",
+      "title": "You stay in control.",
+      "durationSeconds": 3
+    }
+  ]
+}

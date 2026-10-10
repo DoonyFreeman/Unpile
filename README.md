@@ -10,6 +10,29 @@ Keep what you need. Mark the rest for Trash, review the candidate list, and conf
 
 **[Download beta for macOS](https://github.com/DoonyFreeman/Unpile/releases/download/v0.7.0-beta.1/Unpile-0.7.0-universal.dmg)** · Universal arm64/x86_64 · about 3 MB
 
+[![Unpile: swipe through your Downloads, mark files for Trash, keep them, or choose Later. Real app with synthetic demo files.](docs/assets/promo/social-preview.png)](docs/assets/promo/walkthrough.gif)
+
+**[Watch the 20-second walkthrough](docs/assets/promo/walkthrough.gif)** · [MP4](docs/assets/promo/walkthrough.mp4)
+
+Captured app screens show Mark, Keep, Later, Undo, and the separate candidate review. Files and sizes are synthetic; no files moved. The image above stays still until you open the walkthrough.
+
+<details>
+<summary>See the app screenshots</summary>
+
+**One file at a time**
+
+![Unpile demo: file preview, upcoming files, and Mark for Trash, Later, and Keep controls.](docs/assets/promo/card.png)
+
+**Review candidates before moving anything**
+
+![Candidate review showing one synthetic file, its size, and a Keep button to remove it from the list.](docs/assets/promo/review.png)
+
+**English and Russian**
+
+![The same file card and decision controls in Russian.](docs/assets/promo/card-ru.png)
+
+</details>
+
 ## Current features
 
 - Choose one local folder with the system picker; access survives restarts.
@@ -93,3 +116,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [CODE_OF_CON
 - [Release and community plan](docs/RELEASE_AND_GROWTH.md)
 
 These plans include future v1 work. Releases are reviewed against a specific source revision and artifact before publication.
+
+If Unpile helps you, a [GitHub star](https://github.com/DoonyFreeman/Unpile) helps others discover it. Feedback about installation and your first review is especially welcome.

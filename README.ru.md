@@ -4,6 +4,25 @@
 
 **[Скачать beta для macOS](https://github.com/DoonyFreeman/Unpile/releases/download/v0.7.0-beta.1/Unpile-0.7.0-universal.dmg)** · Universal arm64/x86_64 · около 3 МБ
 
+[![Unpile: разбор Downloads по одному файлу, решения «На удаление», «Оставить» и «Позже». Настоящий интерфейс с демонстрационными файлами.](docs/assets/promo/social-preview.png)](docs/assets/promo/walkthrough.gif)
+
+**[Демо за 20 секунд](docs/assets/promo/walkthrough.gif)** · [MP4](docs/assets/promo/walkthrough.mp4)
+
+Последовательность реальных экранов показывает решения, отмену и отдельную проверку списка. Файлы и размеры вымышленные; переносов не было. Обложка статичная, анимация открывается по ссылке.
+
+<details>
+<summary>Посмотреть скриншоты приложения</summary>
+
+**Карточка и решения на русском**
+
+![Демонстрационная карточка с превью, очередью и кнопками «На удаление», «Позже», «Оставить».](docs/assets/promo/card-ru.png)
+
+**Проверка кандидатов перед переносом**
+
+![Отдельный список с вымышленным файлом и кнопкой Keep для исключения кандидата.](docs/assets/promo/review.png)
+
+</details>
+
 Идея: разбирать Downloads короткими сессиями, просматривать файлы по одному и выбирать «Оставить», «На удаление» или «Позже». Отмеченные файлы попадают в системную Корзину только после проверки списка и подтверждения.
 
 | Документ | Что внутри |
@@ -47,3 +66,5 @@ bash scripts/build-app.sh
 `bash scripts/package-dmg.sh --universal` создаёт `build/releases/Unpile-0.7.0-universal.dmg`, SHA-256 и source manifest. Требуется Python 3.10+; packaging-tools изолированы и не поставляются внутри приложения. Готовая beta доступна по ссылке скачивания выше. [Лицензия MIT](LICENSE).
 
 [Инструкция установки](docs/INSTALL.txt) · [Кандидат релиза](docs/RELEASE_CANDIDATE.md) · [Пакет публикации](docs/PUBLICATION_PREVIEW.md) · [Участие](CONTRIBUTING.md) · [Безопасность](SECURITY.md).
+
+Если Unpile оказался полезен, звезда в [GitHub](https://github.com/DoonyFreeman/Unpile) поможет другим найти проект. Особенно полезна обратная связь об установке и первом разборе.
